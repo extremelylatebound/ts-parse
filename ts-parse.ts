@@ -1,5 +1,5 @@
 // Import TypeScript libraries from Deno
-import { createSourceFile, forEachChild, ScriptTarget, SyntaxKind } from "https://deno.land/std/typescript/mod.ts";
+import { createSourceFile, forEachChild, ScriptTarget, SyntaxKind } from "https://esm.sh/typescript";
 
 async function readTsFile(filePath: string): Promise<string> {
     return await Deno.readTextFile(filePath);
